@@ -1,0 +1,69 @@
+body{
+    margin: 1px;
+    background-color: rgba(0, 0, 0, 0.178);
+}
+.container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    width: 35%;
+
+font-size: 70px;
+border: 5px outset rgb(0, 0, 0);
+padding: 10px;
+margin: 10px;
+border-radius: 35px;
+
+color: rgb(255, 255, 255);
+font-weight: lighter;
+text-align: center;
+align-items: center;
+}
+
+img{
+    width: 450px;
+    height: 350px;
+    object-fit: cover;
+}
+nav{
+    display: flex;
+    gap: 0.5rem;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+  }
+  a:hover,
+a:focus {
+  background-color: #fff;
+  color: #333;
+}
+
+    a{
+        flex: 1;
+        background-color: #333;
+        color: #fff;
+        border: 1px solid;
+        padding: 0.5rem;
+        text-align: center;
+        text-decoration: none;
+        transition: all 2s ease-out;
+      }
+      .sketchy {
+        display: inline-block;
+        
+        border: 5px solid rgb(130, 130, 131);
+        font-size: 2.5rem;
+        border-radius: 6% 6% 6% 6% / 2% 2% 2% 2%;
+        text-transform: uppercase;
+        letter-spacing: 0.3ch;
+        background: #ffffff;
+        position: relative;
+    background-color: black;
+    }
+        
+        .border{
+            padding: 10px;
+            text-align: center;
+        }

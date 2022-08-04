@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style2.css">
+    <title>Wildlife</title>
+</head>
+<body>
+    <script>
+        document.querySelector('.button').onmousemove = (e) => {
+
+const x = e.pageX - e.target.offsetLeft
+const y = e.pageY - e.target.offsetTop
+
+e.target.style.setProperty('--x', `${ x }px`)
+e.target.style.setProperty('--y', `${ y }px`)
+
+}
+    </script>
+    <nav role='navigation'>
+        <a data-page="clients" href="Index.html">Home</a>
+        <a data-page="home" class="active" href="startup.html">Startup</a>
+        <a data-page="about" href="Register.html">Register</a>
+        <a data-page="Wildlife" href="Life-in-the-wild.html">Wildlife</a>
+        <a data-page="RobotFriend" href="robotfriend.html">Robot Friend</a>
+       
+      </nav>  
+<div class="border">
+    <h1 class="sketchy">Life in the wild</h1>
+</div>
+    <div class="container">
+        <img src="bold-geometric-shapes-modern-bauhaus-wallpaper-mural-1024x664.jpg">
+        <img src="dark-green-abstract-geometric-lines-repeat-pattern-wallpaper-Plain-scaled.jpg">
+        <img src="grey-blue-gold-concrete-effect-geometric-wallpaper-mural-Plain-scaled.jpg">
+        <img src="modern-abstract-block-shapes-wallpaper-mural-Plain-scaled.jpg">
+        <img src="neutral-line-drawing-floral-pattern-wallpaper-mural-Plain-scaled.jpg">
+        <img src="Portrait-1-retina.jpg">
+    </div>
+</body>
+</html>

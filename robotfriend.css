@@ -1,0 +1,171 @@
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+nav{
+	display: flex;
+	gap: 0.5rem;
+	background-color: rgb(0, 0, 0);
+	padding: 5px;
+  }
+  body{
+	margin: 0px;
+	background-color: rgba(0, 0, 0, 0.178);
+  }
+  a{
+	flex: 1;
+	background-color: #333;
+	color: #fff;
+	border: 1px solid;
+	padding: 0.5rem;
+	text-align: center;
+	text-decoration: none;
+	transition: all 1.2s ease-out;
+  }
+  a:hover,
+  a:focus {
+	background-color: #fff;
+	color: #333;
+  }
+  
+  .greenapple{
+	object-fit: cover;
+  }
+  li{
+	font-family:'Times New Roman', Times, serif;
+  }
+  h1{
+	font-family:'Times New Roman', Times, serif;
+  }
+.robots {
+}
+
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color:  #3DDC84;
+}
+
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 150px; 
+	border-radius: 200px 200px 0 0; 
+	margin-bottom: 10px;
+} 
+
+.eyes {
+	
+}
+
+.head:hover {
+	width: 300px;
+    transition: 1s ease-in-out;
+}
+
+.upper_body { 
+	width: 300px; 
+	height: 150px;
+	display: flex;
+margin: auto;
+} 
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+} 
+
+.right_arm { 
+	margin-left: 10px; 
+} 
+
+.torso { 
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+	
+} 
+
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	/* This is another useful property. Hmm what do you think it does?*/
+	margin: 0 auto;
+
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.right_leg { 
+	margin-left: 125px;
+	margin-top: -119px; 
+}
+
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: px; 
+	border-radius: 15px; 
+	background-color: white;  
+	position:relative; left:190px; top:-0px
+} 
+
+.left_eye { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 100px; 
+	left: 40px; 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 80px; 
+	left: 120px; 
+}
+.left_antenna{
+	width: 6px;
+	height: 50px;
+	position:relative; left 10px; top:1px;
+	border-radius: 5px;
+	transform: rotate(-45deg);
+	background-color: #3DDC84;
+	
+
+}
+.right_antenna{
+	background-color: #3DDC84;
+	width: 6px;
+	height: 50px;
+	top: -34px;
+	border-radius: 3px;
+	transform: rotate(45deg);
+	position:relative; left:190px; top:-53px
+}
+img{
+	width: 350px;
+	position:relative;  left: 6px; top:-90px
+}
