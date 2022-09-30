@@ -51,7 +51,7 @@ a{
   transition: all 1.2s ease-out;
 }
 a:hover,
-a:focus, {
+a:focus {
   background-color: #fff;
   color: #333;
   text-decoration: none;
